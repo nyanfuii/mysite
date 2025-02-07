@@ -1,26 +1,33 @@
 @charset "ucf-8";
 
-.header{background-color: rgb(red, green, blue);}
-.main-image{
+.header {
+  background-color: rgb(red, green, blue);
+}
+
+.main-image {
   width: 90%;
   height: 670px;
   display: block;
   margin: 0 auto;
 }
-main section{
+
+main section {
   background-color: beige;
 }
-article{
+
+article {
   width: 80%;
   margin: auto;
   background-color: bisque;
   text-align: center;
   padding: 40px;
 }
-#form{
+
+#form {
   text-align: center;
 }
-.link{
+
+.link {
   display: block;
   margin: 10px auto;
   width: 30%;
@@ -28,9 +35,10 @@ article{
   background-color: black;
   padding: 10px 0px;
   color: white;
-  text-decoration: none; 
+  text-decoration: none;
 }
-.last{
+
+.last {
   background-color: black;
   color: white;
   text-align: center;
