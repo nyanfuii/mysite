@@ -2,6 +2,20 @@
 
 .header {
   background-color: rgb(red, green, blue);
+  display: flex;
+  padding: 15px;
+}
+header>ul {
+  display: flex;
+  list-style: none;
+  width: 40%;
+}
+header>ul li{
+  width: 100%;
+  text-align: center;
+  line-height: 3;
+  margin: 0 5px;
+  border-bottom: 1px black;
 }
 
 .main-image {
@@ -22,6 +36,18 @@ article {
   text-align: center;
   padding: 40px;
 }
+article>h1{
+  background-color: black;
+  color: white;
+  width: 40%;
+  border-radius: 20%;
+  margin: 0px auto;
+}
+article p{
+  padding:30px 0;
+  background-color: antiquewhite;
+}
+
 
 #form {
   text-align: center;
