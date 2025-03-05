@@ -1,21 +1,30 @@
 @charset "ucf-8";
 
-.header {
-  background-color: rgb(red, green, blue);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: gainsboro;
   display: flex;
   padding: 15px;
+  justify-content: space-between;
 }
-header>ul {
+
+header ul{
   display: flex;
-  list-style: none;
   width: 40%;
+  list-style: none;
 }
-header>ul li{
+header ul li{
   width: 100%;
-  text-align: center;
-  line-height: 3;
   margin: 0 5px;
-  border-bottom: 1px black;
+  line-height: 3;
+  text-align: center;
+  border-bottom: 1px solid blueviolet;
+
 }
 
 .main-image {
@@ -25,50 +34,70 @@ header>ul li{
   margin: 0 auto;
 }
 
-main section {
-  background-color: beige;
-}
-
 article {
   width: 80%;
-  margin: auto;
-  background-color: bisque;
   text-align: center;
+  margin: 0 auto;
+  background-color: rgb(197, 141, 250);
   padding: 40px;
 }
-article>h1{
-  background-color: black;
-  color: white;
-  width: 40%;
-  border-radius: 20%;
-  margin: 0px auto;
+
+main section {
+  background-color: lavenderblush;
 }
-article p{
-  padding:30px 0;
+
+.linkb {
   background-color: antiquewhite;
-}
-
-
-#form {
-  text-align: center;
-}
-
-.link {
+  padding: 10px 0;
   display: block;
-  margin: 10px auto;
-  width: 30%;
   text-align: center;
-  background-color: black;
-  padding: 10px 0px;
-  color: white;
+  color: rgb(92, 88, 88);
+  width: 30%;
+  margin: 10px auto;
   text-decoration: none;
 }
 
-.last {
-  background-color: black;
-  color: white;
+#form{
+  text-align: center;
+}
+.last{
+  background-color: rgb(215, 178, 250);
   text-align: center;
   font-size: 10px;
   letter-spacing: 10px;
   padding: 10px 0;
+  color:rgb(121, 120, 120) ;
+}
+a{
+  text-decoration: none;
+}
+
+article h1{
+  background-color:antiquewhite;
+border-radius: 5px;
+width: 40%;
+margin: 0 auto;
+
+}
+article p{
+  padding: 30px 0;
+  
+}
+
+.item{
+  background-color: aliceblue;
+  width: calc((100% - 12px) / 3);
+  
+}
+.tb{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(144, 201, 250);
+  gap: 5px;
+  padding: 10px;
+}
+
+.tb p{
+  font-size: 8px;
 }
