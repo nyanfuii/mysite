@@ -47,7 +47,7 @@ main section {
 }
 
 .linkb {
-  background-color: antiquewhite;
+  background-color: rgb(239, 214, 253);
   padding: 10px 0;
   display: block;
   text-align: center;
@@ -60,6 +60,7 @@ main section {
 #form{
   text-align: center;
 }
+
 .last{
   background-color: rgb(215, 178, 250);
   text-align: center;
@@ -68,7 +69,7 @@ main section {
   padding: 10px 0;
   color:rgb(121, 120, 120) ;
 }
-a{
+header a{
   text-decoration: none;
 }
 
@@ -100,4 +101,44 @@ article p{
 
 .tb p{
   font-size: 8px;
+}
+
+#site div{
+  background-color: rgb(225, 228, 228);
+  width: 80%;
+  border: 1px solid;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+[type="text"]{
+  width: 80%;
+  padding: 10px;
+}
+
+textarea{
+  width: 80%;
+  
+}
+
+#form ::placeholder{
+  text-align: center;
+
+
+}
+#form div{
+  padding: 10px 0;
+}
+
+#caret{
+  text-align: center;
+  padding: 10px;
+}
+
+.item img{
+  border-radius: 50px;
+  object-fit: cover;
+  width: 120px;
+  height: 80px;
+  margin: 10px auto;
 }
